@@ -1,10 +1,10 @@
 import java.util.*;
 public class TicketBook{
-	static alb = 2;		//available lower berth
-	static aml = 1;
-	static aub = 1;	
-	static arac = 1;
-	static awl = 1;
+	static int alb = 2;		//available lower berth
+	static int aml = 1;
+	static int aub = 1;	
+	static int arac = 1;
+	static int awl = 1;
 
 	static List<Integer> lbP = new ArrayList<Integer>(Arrays.asList(1, 2));		//lower berth position
 	static List<Integer> mbp = new ArrayList<Integer>(Arrays.asList(1));
